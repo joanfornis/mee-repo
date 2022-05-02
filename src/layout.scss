@@ -1,0 +1,54 @@
+//settings & common utils
+@import "variables";
+@import "fonts";
+@import "grid";
+
+//layout components
+@import "header";
+@import "main-menu";
+@import "footer";
+
+//common styles
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li>ul {
+    padding-left: 0.5rem;
+}
+
+//layout styles
+.content-wrapper {
+    display: flex;
+    padding: 2rem 1rem
+}
+
+.sidebar {
+    background-color: #eee;
+    padding: 1rem
+}
+
+.content {
+    flex: 75%;
+}
+
+.sidebar {
+    flex: 25%
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column
+    }
+
+    .content {
+        padding: 0 0 1rem
+    }
+}

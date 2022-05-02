@@ -1,0 +1,13 @@
+/*HERO-V1*/
+
+//imports
+@import "buttons";
+
+//includes
+@include button-outline;
+
+
+.hero-v1 {
+    color: white;
+    background-color: #666;
+}

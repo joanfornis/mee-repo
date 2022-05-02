@@ -1,0 +1,19 @@
+@mixin card() {
+    .card {
+        background-color: white;
+        border-radius: 0.5rem;
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 2px 2px 8px #ddd;
+        .card-title {
+          color: #3c87cd;
+          font-size: 1rem;
+        }
+        .card-description {
+          font-size: 0.9rem;
+          padding-top: 1rem;
+        }
+      }
+}

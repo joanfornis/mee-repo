@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "http-server": "^14.1.0",
+    "sass": "^1.49.8",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "compile-sass-layout": "sass ./src/layout.scss ./css/layout.css",
+    "compile-sass-content": "sass ./src/content.scss ./css/content.css",
+    "minify-css": "css-minify -d ./css/ -o ./css/min/",
+    "compile-ts": "tsc --build",
+    "start": "http-server ./"
+  }
+}

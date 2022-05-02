@@ -1,0 +1,21 @@
+//Pasar a limpio (sass en archivos separados)
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+}
+
+.main-footer div{
+    background-color: #eee;
+    padding: 1rem
+}
+
+.main-footer {
+    background-color: #ddd
+}
+
+@media (max-width: 576px) {
+    .main-footer {
+        flex-direction: column
+    }
+}

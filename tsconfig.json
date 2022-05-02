@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "module": "es6",
+      "target": "es3",
+      "outDir": "scripts/"
+    },
+    "include": [
+      "src/script.ts"
+    ]
+  }

@@ -1,0 +1,12 @@
+@mixin button-outline() {
+    .btn-outline {
+        display: inline-block;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        background: $color-gray;
+        color: $color-text;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold; 
+    }
+}
